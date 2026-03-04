@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000; 
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    margin-bottom: 40px;
+}
+
+.image-container img {
+    width: 820px;      
+    max-width: 90%;
+    border: 6px solid #ffffff;
+    display: block;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.9;
+}
